@@ -125,9 +125,9 @@ class Affix extends Component {
     render() {
         const { fixStyle, boxStyle }= this.calculate()
         return (
-            <div className="afix">
-                <div className="afix-holder" style={boxStyle}/>
-                <div className="afix-wrapper" style={fixStyle}>
+            <div className="affix">
+                <div className="affix-holder" style={boxStyle}/>
+                <div className="affix-wrapper" style={fixStyle}>
                     {this.props.children}
                 </div>
             </div>
